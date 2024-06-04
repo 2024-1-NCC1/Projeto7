@@ -22,6 +22,32 @@
 Nosso jogo foi inspirado em Overcooked; criamos uma réplica desse jogo. O OverHngry pode inspirar os jogadores a se interessarem mais pela culinária na vida real, experimentando e apreciando mais a arte de cozinhar.
 Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
 <br><br>
+## 🛠 Estrutura de pastas
+
+-Raiz<br>
+|<br>
+|-->documentos<br>
+  &emsp;|Documentação.docx<br>
+|-->executáveis<br>
+  &emsp;|-->windows<br> 
+|-->imagens<br>
+|-->src<br>
+
+|readme.md<br>
+
+A pasta raiz contem dois arquivos que devem ser alterados:
+
+<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+
+Há também 4 pastas que seguem da seguinte forma:
+
+<b>documentos</b>: Toda a documentação estará nesta pasta.
+
+<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+
+<b>imagens</b>: Imagens do sistema
+
+<b>src</b>: Pasta que contém o código fonte.
 ## 🛠 Instalação
 Passos para abrir o jogo:
 
@@ -44,6 +70,25 @@ Passos para abrir o jogo:
 9- Por fim, clique em "2-GameScene".
 
 O jogo será aberto normalmente.
+
+## 💻 Configuração para Desenvolvimento
+
+Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+
+Para abrir este projeto você necessita das seguintes ferramentas:
+
+-<a href="https://godotengine.org/download">UNITY 2022.3.23f1</a>
+
+```sh
+make install
+npm test
+Coloque código do prompt de comnando se for necessário
+```
+## 🎓 Referências
+
+Aqui estão as referências usadas no projeto.
+
+https://www.youtube.com/watch?v=AmGSEH7QcDg
 
 ## 📋 Licença/License
 
